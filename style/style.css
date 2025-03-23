@@ -1,0 +1,99 @@
+#hero{
+    height: 800px;
+    background-image: url("../images/icons/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#hero-content{
+    /* height: 800px; */
+    background-color: rgba(51,47,47,0.8);
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    width: 900px; 
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    border-radius: 10px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 270px;
+}
+#hero-content h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Raleway",sans-serif;
+    margin: 0;
+}
+
+#hero-content p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+}
+#hero-content button {
+    background-color: rgb(255,251,0);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    margin-top: 10px;
+}
+#hero-content button:hover{
+    background-color: rgb(255,238,0);
+
+}
+
+#hero-content button a{
+    text-decoration: none;
+    /* background-color: rgb(255,251,0); */
+    padding: 12px 24px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    
+
+}
+.destination{
+    margin: 0 20px;
+}
+
+#destinations{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-bottom: 40px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+#highlights{
+    text-align: center;
+    padding: 24px;
+    background: linear-gradient(0deg,rgb(227,255,253),rgb(202,243,240));
+}
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+.destination p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    color :rgb(124,123,123);
+    margin: 20px 0;
+}
+.destination strong{
+    color: rgb(0, 160, 117);
+}
+#highlights h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
+}
